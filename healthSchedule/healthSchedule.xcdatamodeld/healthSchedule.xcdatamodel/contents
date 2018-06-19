@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BodyInfo" representedClassName="BodyInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="bmi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saveDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Fri" representedClassName="Fri" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Mon" representedClassName="Mon" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sat" representedClassName="Sat" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sun" representedClassName="Sun" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Thur" representedClassName="Thur" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tue" representedClassName="Tue" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Wed" representedClassName="Wed" syncable="YES" codeGenerationType="class">
+        <attribute name="isDone" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="todo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BodyInfo" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Mon" positionX="-54" positionY="18" width="128" height="90"/>
+        <element name="Tue" positionX="-36" positionY="27" width="128" height="90"/>
+        <element name="Wed" positionX="-18" positionY="36" width="128" height="90"/>
+        <element name="Thur" positionX="0" positionY="45" width="128" height="90"/>
+        <element name="Fri" positionX="18" positionY="63" width="128" height="90"/>
+        <element name="Sat" positionX="36" positionY="81" width="128" height="90"/>
+        <element name="Sun" positionX="-9" positionY="36" width="128" height="90"/>
+    </elements>
+</model>
